@@ -1,0 +1,11 @@
+// Function to calculate the area of a circle
+double calculateCircleArea(double radius) {
+  const double pi = 3.14159; // Value of Pi
+  return pi * radius * radius; // Formula: πr²
+}
+
+void main() {
+  double radius = 5.0; // Example radius
+  double area = calculateCircleArea(radius);
+  print('The area of the circle with radius $radius is $area');
+}
